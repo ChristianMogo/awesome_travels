@@ -1,0 +1,25 @@
+ #searchbox{
+    	position:absolute;
+    	bottom:10px;
+    	left:20px;
+    	right:20px;
+    	border:1px solid red;
+    	overflow:auto;
+    }	 
+
+    #search, 
+	#submit {
+    	float: left;
+	}
+	#submit{
+		width:100px;
+	}
+	#search {
+    	padding: 5px 9px;
+    	height: 15px;
+    	width: 60%;
+    	border: 1px solid #a4c3ca;
+    	font: normal 13px 'trebuchet MS', arial, helvetica;
+    	background: #f1f1f1;
+    	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+	}
